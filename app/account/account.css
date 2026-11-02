@@ -1,0 +1,257 @@
+/* =========================================
+   My Account Page Styling - Devotional Theme
+   ========================================= */
+
+.account-page {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #fff8eb 0%, #fffdf8 50%, #f7efe2 100%);
+    padding-top: 24px;
+    padding-bottom: 60px;
+    color: #3b2416;
+    font-family: inherit;
+}
+
+/* Header */
+.account-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(139, 69, 19, 0.15);
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.account-brand-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #8b4513;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.account-brand-sub {
+    font-size: 13px;
+    color: #8c7565;
+    margin: 0;
+}
+
+.account-nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-jap-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: #8b4513;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.btn-jap-back:hover {
+    background: #6a320c;
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.btn-account-logout {
+    padding: 8px 14px;
+    border-radius: 50px;
+    border: 1px solid #d9534f;
+    background: transparent;
+    color: #d9534f;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-account-logout:hover {
+    background: #d9534f;
+    color: #ffffff;
+}
+
+/* Profile Banner Card */
+.account-profile-card {
+    background: #ffffff;
+    border: 1px solid rgba(139, 69, 19, 0.14);
+    border-radius: 20px;
+    padding: 26px 28px;
+    box-shadow: 0 10px 30px rgba(90, 45, 15, 0.06);
+    margin-bottom: 24px;
+}
+
+.profile-avatar-circle {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #f8a555, #c8531b);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    box-shadow: 0 4px 15px rgba(200, 83, 27, 0.25);
+    flex-shrink: 0;
+}
+
+.sadhak-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #fff4e2;
+    border: 1px solid rgba(199, 90, 24, 0.25);
+    color: #9a4816;
+    padding: 4px 12px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+/* Stat Cards */
+.stat-card-highlight {
+    background: linear-gradient(145deg, #fffbf4 0%, #fff2dc 100%);
+    border: 1px solid #f0d5b5;
+    border-radius: 18px;
+    padding: 22px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.05);
+    height: 100%;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #8c7565;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.stat-number-primary {
+    font-size: clamp(34px, 4.5vw, 46px);
+    font-weight: 800;
+    color: #8b3c12;
+    line-height: 1.15;
+    margin-bottom: 6px;
+}
+
+.stat-subtext {
+    font-size: 13px;
+    color: #8c7565;
+    margin: 0;
+}
+
+.stat-badge-golden {
+    display: inline-block;
+    background: #ebd29f;
+    color: #63360b;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+/* Security & Password Card */
+.account-form-card {
+    background: #ffffff;
+    border: 1px solid rgba(139, 69, 19, 0.14);
+    border-radius: 20px;
+    padding: 30px 28px;
+    box-shadow: 0 10px 30px rgba(90, 45, 15, 0.06);
+}
+
+.form-card-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #5d2e14;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form-card-sub {
+    font-size: 13px;
+    color: #8c7565;
+    margin-bottom: 22px;
+}
+
+.account-input-group label {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #4f3322;
+    margin-bottom: 6px;
+}
+
+.account-input {
+    width: 100%;
+    min-height: 46px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #dfd1c2;
+    font-size: 15px;
+    color: #39271b;
+    transition: all 0.2s ease;
+}
+
+.account-input:focus {
+    outline: none;
+    border-color: #b86b30;
+    box-shadow: 0 0 0 3px rgba(184, 107, 48, 0.14);
+}
+
+.btn-update-pwd {
+    min-height: 46px;
+    background: #7a3915;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.15s ease;
+    cursor: pointer;
+}
+
+.btn-update-pwd:hover:not(:disabled) {
+    background: #5b280b;
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.btn-update-pwd:disabled {
+    background: #cca993;
+    cursor: not-allowed;
+}
+
+/* Responsiveness */
+@media (max-width: 576px) {
+    .account-page {
+        padding-top: 14px;
+    }
+
+    .account-profile-card,
+    .account-form-card {
+        padding: 20px 16px;
+        border-radius: 16px;
+    }
+
+    .profile-avatar-circle {
+        width: 54px;
+        height: 54px;
+        font-size: 22px;
+    }
+}
